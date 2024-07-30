@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#FFB6C1;
+}
+.test{
+    background-image: url("redheart.png");
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    position: absolute;
+    bottom: -70px;
+    animation-name: animation1 ;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    z-index: 0;
+}
+.container{
+    margin: 200px auto;
+    background-color: rgb(255, 98, 195);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: center;
+    width: 80vw;
+    padding: 15px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+@keyframes animation1 {
+    0%{
+        transform: translate(2px,-82px);
+    } 
+    10%{
+        transform: translate(-2px,-164px);
+    }
+    20%{
+        transform: translate(2px,-246px);
+    }
+    30%{
+        transform: translate(-2px,-328px);
+    }
+    40%{
+        transform: translate(2px,-410px);
+    }
+    50%{
+        transform: translate(-2px,-492px);
+    }
+    60%{
+        transform: translate(2px,-574px);
+    }
+    70%{
+        transform: translate(-2px,-656px);
+    }
+    80%{
+        transform: translate(2px,-738px);
+    }
+    90%{
+        transform: translate(-2px,-820px);
+    }
+    100%{
+        transform: translate(2px,-902px);
+    }
+}
